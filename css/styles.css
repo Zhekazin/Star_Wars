@@ -1,6 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.img {
+display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
 
 .hero {
-    max-width: 1360px;
-    width: 700px;
-    background:
+    background-image: 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
